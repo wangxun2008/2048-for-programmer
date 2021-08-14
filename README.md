@@ -61,7 +61,7 @@ The game contains 3 modes, which can be changed by pressing the spacebar
 #### Game screenshot
 See above
 ### Engine introduction
-This 2D engine is made by imitating * * EasyX * *. It is used for * * DEV-C + + * *, and rewrites most functions in * * EasyX * *.
+This 2D engine is made by imitating **EasyX**. It is used for **DEV-C++**, and rewrites most functions in **EasyX**.
 
 Because it is a console with low rendering efficiency, it is not recommended to make games. Only some lightweight programs can be made
 
