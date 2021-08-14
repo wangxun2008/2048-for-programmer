@@ -42,3 +42,41 @@ settextsize(0.5,1.0)
 ```
 
 更多内容可以参考**EasyX**官网
+
+-------
+
+# 2048 programmer Edition
+## Program list
+| Program name | version | upload time | launch time|
+|:--------:|:-------:|:--------:|:------:|
+| 2048 programmer | version 1.3 | 2021-8-14 | 2021-7-31|
+| ggcc_ Graphics 2D graphics engine | version 1.6 | 2021-8-14 | 2021-7-9 17:00|
+## Compiling system
+This program is written in **DEV-C++** and compiled with **tdm-gcc 4.9.2 64 bit debug** compiler in **DEV-C++ 5.11**.
+## Program introduction
+### Game introduction
+This is a well-known 2048 game
+
+The game contains 3 modes, which can be changed by pressing the spacebar
+#### Game screenshot
+See above
+### Engine introduction
+This 2D engine is made by imitating * * EasyX * *. It is used for * * DEV-C + + * *, and rewrites most functions in * * EasyX * *.
+
+Because it is a console with low rendering efficiency, it is not recommended to make games. Only some lightweight programs can be made
+
+Unlike **EasyX**, **ggcc_graphics** you can set the pixel size (default 16 \* 16):
+```cpp
+settextsize (pixel width, pixel height)
+```
+Note that the console is used here, so the pixel width should be / 2
+
+For example, to set a pixel of 16 \* 16, write:
+```cpp
+settextsize(8.0,16.0)
+```
+The pixel setting 1 \* 1 should be written as follows:
+```cpp
+settextsize(0.5,1.0)
+```
+For more information, please refer to **EasyX** official website
